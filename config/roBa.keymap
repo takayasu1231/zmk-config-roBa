@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
@@ -58,12 +57,16 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             // 追加: スクロールのタップ時間を設定 (20ms)
+
             tap-ms = <20>;
         };
 
-// 設定したいレイヤー
-sensor-bindings = <&scroll_up_down>;
+        // 設定したいレイヤー
+
+        sensor-bindings = <&scroll_up_down>;
+
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
@@ -85,7 +88,7 @@ sensor-bindings = <&scroll_up_down>;
 &kp LEFT_COMMAND  &to 6  &kp LEFT_ALT  &mt LSHIFT LANGUAGE_2  &lt 3 SPACE  &lt 5 LANGUAGE_1      &kp BACKSPACE  &lt 1 ENTER                             &kp RG(LEFT_ARROW)
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
