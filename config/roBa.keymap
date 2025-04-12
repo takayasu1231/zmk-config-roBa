@@ -89,7 +89,7 @@
             bindings = <
 &kp ESCAPE  &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION  &kp AT_SIGN    &none
 &trans      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET      &trans      &none   &kp RIGHT_BRACKET      &kp MINUS        &kp PLUS      &kp HASH       &none
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LESS_THAN         &trans      &trans  &kp GREATER_THAN       &kp UNDERSCORE   &kp EQUAL     &kp SEMICOLON  &none
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LESS_THAN         &trans      &trans  &kp GREATER_THAN       &kp UNDERSCORE   &kp EQUAL     &kp SEMICOLON  &kp PERIOD
 &trans      &kp N0        &trans        &trans        &trans                &trans      &trans  &trans                                                               &none
             >;
         };
