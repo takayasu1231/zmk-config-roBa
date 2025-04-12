@@ -77,7 +77,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W  &kp E         &kp R                  &kp T                                                &kp Y        &kp U    &kp I     &kp O     &kp P
-&lt 4 A           &kp S  &kp D         &kp F                  &kp G        &kp LS(LG(S))         &kp LEFT_CONTROL  &kp H        &lt 5 J  &kp K     &kp L     &kp MINUS
+&kp A             &kp S  &kp D         &kp F                  &kp G        &kp LS(LG(S))         &kp LEFT_CONTROL  &kp H        &lt 5 J  &kp K     &kp L     &kp MINUS
 &mt LEFT_SHIFT Z  &kp X  &kp C         &kp V                  &kp B        &kp TAB               &kp LEFT_ALT      &kp N        &kp M    &mkp MB1  &mkp MB2  &kp SLASH
 &kp LEFT_COMMAND  &to 6  &kp LEFT_ALT  &mt LSHIFT LANGUAGE_2  &lt 3 SPACE  &lt 5 LANGUAGE_1      &kp BACKSPACE     &lt 1 ENTER                               &kp RG(LEFT_ARROW)
             >;
@@ -87,10 +87,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESCAPE  &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION  &kp AT_SIGN  &none
-&trans      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET      &trans      &none   &kp RIGHT_BRACKET      &kp MINUS        &kp PLUS      &kp HASH     &none
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LESS_THAN         &trans      &trans  &kp GREATER_THAN       &kp UNDERSCORE   &kp EQUAL     &trans       &none
-&trans      &kp N0        &trans        &trans        &trans                &trans      &trans  &trans                                                             &none
+&kp ESCAPE  &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION  &kp AT_SIGN    &none
+&trans      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET      &trans      &none   &kp RIGHT_BRACKET      &kp MINUS        &kp PLUS      &kp HASH       &none
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LESS_THAN         &trans      &trans  &kp GREATER_THAN       &kp UNDERSCORE   &kp EQUAL     &kp SEMICOLON  &none
+&trans      &kp N0        &trans        &trans        &trans                &trans      &trans  &trans                                                               &none
             >;
         };
 
